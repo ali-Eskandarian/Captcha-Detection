@@ -15,12 +15,16 @@ char_to_nums = {'1': 0, '2': 1, '3': 2, '4': 3, '5': 4, '6': 5, '7': 6,
 img_folder_path = 'data/'
 
 def main(data=img_folder_path, char_to_num=char_to_nums):
+    val = input("Enter your value: ")
     num_to_char = {y: x for x, y in char_to_num.items()}
     data = Dataset_cap(img_folder_path, char_to_num)
     predictor = Captcha_reader(data, num_to_char, epoch= 10)
-    predictor.plot_loss()
-    predictor.predict_test()
-    predictor.model.summary()
-
+    if val==1:
+      predictor.plot_loss()
+    elif val==2:
+      predictor.predict_test()
+    elif val==3:
+      predictor.model.summary()
+  
 if __name__ == '__main__':
     main()
