@@ -1,1 +1,4 @@
-# AI_Medic
+# AI Medic Internship - Captcha Detection
+As I ventured into the realm of Captcha detection during my internship, I drew inspiration from various online sources, infusing my unique touch by enhancing the model and loss function to achieve unparalleled quality. The journey was filled with challenges, but the satisfaction of overcoming obstacles and crafting a truly exceptional solution made it all worthwhile.
+
+In the colorful tapestry of my internship experience, the Captcha detection project shone like a vibrant mosaic. Embracing the spirit of innovation, I seamlessly integrated existing knowledge with my own creative twists, resulting in a masterpiece that reflected both dedication and ingenuity. The README file, much like a treasure map, now encapsulates the essence of this adventure, inviting others to embark on their own exciting quest through the captivating world of Captcha detection!
